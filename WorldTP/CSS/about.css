@@ -1,0 +1,70 @@
+/* ============ ABOUT CSS ============== */
+
+.container-fluid{
+    background-color: aquamarine;
+}
+.container-fluid .container{
+
+}
+.container-fluid .container .mainAbout{
+   height: auto;
+   width: 100%;
+}
+.container-fluid .container .mainAbout .childAbout{
+   height: auto;
+   width: 100%;
+   padding: 30px 0;
+}
+.container-fluid .container .mainAbout .childAbout h3{
+   text-align: center;
+   line-height: 50px;
+   font-size: 40px;
+}
+.container-fluid .container .mainAbout .childAbout hr{
+   height: 2px;
+   width: 20%;
+   /* background-color: black; */
+}
+.container-fluid .container .mainAbout .childAbout .wrap{
+   height:auto;
+   width: 100%;
+   display: flex;
+   /* padding: 50px; */
+   /* background-color: blueviolet; */
+}
+.container-fluid .container .mainAbout .childAbout .wrap .sec{
+   height: auto;
+   width: 50%;
+   padding: 40px 0;
+}
+.container-fluid .container .mainAbout .childAbout .wrap .sec .wrapper{
+   height: auto;
+   width: 100%;
+}
+.container-fluid .container .mainAbout .childAbout .wrap .sec .wrapper h4{
+
+}
+.container-fluid .container .mainAbout .childAbout .wrap .sec .wrapper p{
+
+}
+.container-fluid .container .mainAbout .childAbout .wrap .sec .wrapper button{
+    height: 50px;
+    width: 30%;
+    display: block;
+    margin: 110px auto;
+    border: 1px solid blue;
+    border-radius: 10px;
+    font-weight: 700;
+    background-color: transparent;
+}
+
+.container-fluid .container .mainAbout .childAbout .wrap .sec .wrapper img{
+    height: 450px;
+    width: 95%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    /* box-shadow: 5px 2px  whitesmoke; */
+}
+
+

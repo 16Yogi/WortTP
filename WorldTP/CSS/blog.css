@@ -1,0 +1,89 @@
+/* =================  BLOG CSS ================== */
+
+.container-fluid{
+
+}
+.container-fluid .container{
+
+}
+.container-fluid .container .mainBlog{
+    height: auto;
+    width: 100%;
+}
+.container-fluid .container .mainBlog .childBlog{
+    height: auto;
+    width: 100%;
+    padding: 60px 0;
+}
+.container-fluid .container .mainBlog .childBlog h3{
+    text-align: center;
+    line-height: 40px;
+    font-size: 40px;
+}
+.container-fluid .container .mainBlog .childBlog .wrap{
+   height: auto;
+   width: 100%;
+   display: flex;
+   padding: 60px 0;
+   justify-content: space-between;
+}
+.container-fluid .container .mainBlog .childBlog .wrap .blog{
+   /* position:absolute; */
+   position: relative;
+   height: 320px;
+   width: 22%;
+   /* background-color: blueviolet; */
+   /* border-radius: 8px; */
+   border-end-end-radius: 20px;
+   border-top-left-radius: 20px;
+   background-image: url('https://media.istockphoto.com/vectors/airplane-flying-above-tourists-luggage-suitcase-passport-tickets-vector-id1311890911?k=20&m=1311890911&s=612x612&w=0&h=qqltAb4wI3lfG9uVrLme9cHBDH8cDnFVrls_KzT8wtg=');
+   background-size: 100% 100%;
+}
+.container-fluid .container .mainBlog .childBlog .wrap .blog:hover{
+   background-color: rgb(0,0,0,0.8);
+}
+.container-fluid .container .mainBlog .childBlog .wrap .blog .blog-a{
+   /* position: relative; */
+   position: absolute;
+   top: 150px;
+   left: 0;
+   height: 170px;
+   width: 100%;
+   padding: 10px 5%;
+   border-top-left-radius: 20px;
+   border-end-end-radius: 20px;
+   color: white;
+   background-color:rgb(0,0,0,0.5);
+}
+.container-fluid .container .mainBlog .childBlog .wrap .blog .blog-a:hover{
+   box-shadow: 2px 2px 5px blue;
+   background-color: rgb(0,0,0,0.8);
+}
+.container-fluid .container .mainBlog .childBlog .wrap .blog .blog-a p{
+   /* text-indent: 5%; */
+
+}
+.container-fluid .container .mainBlog .childBlog .wrap .blog .blog-a p:nth-child(2){
+    font-size: 13px;
+}
+.container-fluid .container .mainBlog .childBlog .wrap .blog .blog-a span{
+   /* text-indent: 5%; */
+   /* display:inline-block; */
+   /* display: ; */
+   /* padding: 5% 0; */
+   /* color: aquamarine; */
+}
+.container-fluid .container .mainBlog .childBlog .wrap .blog .blog-a button{
+   height:30px;
+   width: 50%;
+   display: block;
+   font-weight: 700;
+   margin: 0 auto;
+   border: 1px solid blue;
+   border-radius: 5px;
+   color: white;
+   background-color: transparent;
+}
+.container-fluid .container .mainBlog .childBlog .wrap .blog .blog-a button:hover{
+   background-color: aquamarine;
+}

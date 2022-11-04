@@ -1,0 +1,67 @@
+/* ============== CUSTOMER REVIEW ================= */
+
+.container-fluid{
+
+}
+.container-fluid .container{
+
+}
+.container-fluid .container .mainCustomer{
+   height:  auto;
+   width:100%;  
+}
+.container-fluid .container .mainCustomer .childCustomer{
+   height:  auto;
+   width:100%;
+   padding: 50px 0;
+}
+.container-fluid .container .mainCustomer .childCustomer h3{
+   text-align: center;   
+}
+.container-fluid .container .mainCustomer .childCustomer p{
+   text-align: center;
+}
+.container-fluid .container .mainCustomer .childCustomer .wrap{
+    height:  auto;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+.container-fluid .container .mainCustomer .childCustomer .item{
+    height: 300px;
+    width: 30%;
+    /* background-color: cadetblue; */
+}
+.container-fluid .container .mainCustomer .childCustomer .item .item-a{
+    height: 150px;
+    width: 100%;
+    /* border-radius: 50%; */
+    /* background-color: aqua; */
+}
+.container-fluid .container .mainCustomer .childCustomer .item .item-a img{
+    height: 150px;
+    width: 150px;
+    display: block;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.container-fluid .container .mainCustomer .childCustomer .item .item-b{
+
+}
+.container-fluid .container .mainCustomer .childCustomer .item .item-b p{
+  padding: 0 5%;
+}
+.container-fluid .container .mainCustomer .childCustomer .item .item-b hr{
+  height: 5px;
+  width: 20%;
+  border-radius: 10px;
+  background-color: blueviolet;
+}
+.container-fluid .container .mainCustomer .childCustomer .item .item-b p:nth-child(1){
+  line-height: 40px;
+  font-weight: 700;
+}
+.container-fluid .container .mainCustomer .childCustomer .item .item-b p:nth-child(2){
+  font-size: 14px;
+}

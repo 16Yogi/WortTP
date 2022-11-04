@@ -1,0 +1,135 @@
+/* <!-- =================== FOOTER PAGE =================== --> */
+.container-fluid{
+      
+}
+.container-fluid .container{
+  color: white;
+}
+.container-fluid .container .mainFooter{
+   height: auto;
+   width: 100%;
+   padding:20px 0;
+}
+.container-fluid .container .mainFooter .childFooter{
+   height: auto;
+   width: 100%;
+   padding: 20px 0;
+}
+.container-fluid .container .mainFooter .childFooter .wrap{
+   height: auto;
+   width: 100%;
+}
+.container-fluid .container .mainFooter .childFooter .wrap .sec{
+   height: auto;
+   width: 100%;
+}
+.container-fluid .container .mainFooter .childFooter .wrap .sec .wrapper{
+   height: auto;
+   width: 100%;
+   /* background-color: aquamarine; */
+}
+.container-fluid .container .mainFooter .childFooter .wrap .sec .wrapper .item{
+  /* padding: 0 5%; */
+}
+.container-fluid .container .mainFooter .childFooter .wrap .sec .wrapper .item h4{
+   text-transform: uppercase;
+   line-height: 50px;
+}
+.container-fluid .container .mainFooter .childFooter .wrap .sec .wrapper .item p{
+
+}
+.container-fluid .container .mainFooter .childFooter .wrap .sec .wrapper .item p a{
+   text-decoration: none;
+   color:white;
+}
+/* ====== top bar ============ */
+.container-fluid .container .mainFooter .childFooter .wrap .sec #top{
+   height: 70px;
+   width: 100%;
+   display: flex;
+   /* background-color: brown; */
+}
+
+.container-fluid .container .mainFooter .childFooter .wrap .sec #top .link{
+   height: 50px;
+   width: 50px;
+   border-radius: 50%;
+   text-align: center;
+   cursor: pointer;
+   margin: 10px 2px;
+   color: beige;
+   background-color: black;
+}
+.container-fluid .container .mainFooter .childFooter .wrap .sec #top .link i{
+   /* text-align: center; */
+   line-height: 50px;
+
+} 
+
+/* ====== second lyear ======= */
+
+.container-fluid .container .mainFooter .childFooter .wrap .sec #links{
+    height: auto;
+    width: 100%;
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 10px 0;
+    /* background-color: rgb(8, 5, 10); */
+ }
+ .container-fluid .container .mainFooter .childFooter .wrap .sec #links .item{
+    height: auto;
+    width: 30%;
+    /* background-color: black; */
+}
+/* .container-fluid .container .mainFooter .childFooter .wrap .sec #links .item{ */
+
+/* } */
+
+.container-fluid .container .mainFooter .childFooter .wrap .sec #links #contact{
+   height: auto;
+   width: 40%;
+}
+.container-fluid .container .mainFooter .childFooter .wrap .sec #links #contact input{
+    height: 40px;
+    width: 49.5%;
+    font-size: 12px;
+    border: 1px solid blue;
+    /* border-radius: 10px; */
+    outline: none;
+    padding-left: 3%;
+    /* margin: 0 2%; */
+
+}
+.container-fluid .container .mainFooter .childFooter .wrap .sec #links #contact textarea{
+   height: 120px;
+   width: 100%;
+   font-size: 12px;
+   display: block;
+   outline: none;
+   border: 1px solid blue;
+   /* border-radius: 5px; */
+   margin-top: 20px;
+   padding-left: 2%;
+}
+.container-fluid .container .mainFooter .childFooter .wrap .sec #links #contact button{
+   height: 40px;
+   width: 20%;
+   font-size: 13px;
+   font-weight: 700;
+   border: 1px solid blue;
+   /* border-radius: 5px; */
+   margin-top: 20px;
+}
+/* ============= bottom ============= */
+.container-fluid .container .mainFooter .childFooter .wrap #bottom{
+   text-align: center;
+}
+.container-fluid .container .mainFooter .childFooter .wrap #bottom hr{
+   height: 2px;
+   width: 50%;
+   border-radius: 10px;
+   background-color: blueviolet;
+}
+.container-fluid .container .mainFooter .childFooter .wrap #bottom span{
+  text-align: center;
+}

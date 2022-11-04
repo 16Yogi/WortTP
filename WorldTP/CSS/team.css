@@ -1,0 +1,66 @@
+/* =========== TEAM PAGE ============== */
+
+.container-fluid{
+ background-color: rgb(71, 64, 64);
+}
+.container-fluid .container {
+
+}
+.container-fluid .container .mainTeam{
+   height:auto;
+   width:100%;
+
+}
+.container-fluid .container .mainTeam .childTeam{
+   height:auto;
+   width:100%;
+   padding: 50px 0;  
+}
+.container-fluid .container .mainTeam .childTeam h3{
+  line-height: 30px;
+  text-align: center;
+}
+.container-fluid .container .mainTeam .childTeam p{
+  text-align: center;
+}
+.container-fluid .container .mainTeam .childTeam .wrap{
+   height:auto;
+   width:100%;
+   display: flex;
+   justify-content: space-between;
+
+}
+.container-fluid .container .mainTeam .childTeam .wrap .team{
+   height: 300px;
+   width: 22%;
+   /* background-color: rgb(29, 100, 100); */
+}
+.container-fluid .container .mainTeam .childTeam .wrap .team .team-a{
+   height: 150px;
+   width: 100%;
+   /* background-color: blueviolet; */
+}
+.container-fluid .container .mainTeam .childTeam .wrap .team .team-a img{
+   height: 150px;
+   width: 150px;
+   border-radius: 50%;
+   display: block;
+   margin: 0 auto;
+   box-shadow: 2px 2px 2px blue;
+}
+.container-fluid .container .mainTeam .childTeam .wrap .team .team-b{
+   height: 150px;
+   width: 100%;
+}
+.container-fluid .container .mainTeam .childTeam .wrap .team .team-b p{
+   padding: 0 5%;
+   color: white;
+}
+.container-fluid .container .mainTeam .childTeam .wrap .team .team-b p:nth-child(1){
+   line-height: 30px;
+   font-weight: 700;
+}
+.container-fluid .container .mainTeam .childTeam .wrap .team .team-b p:nth-child(2){
+   font-size: 13px;
+
+}

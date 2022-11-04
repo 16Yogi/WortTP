@@ -1,0 +1,68 @@
+/* ==================== NAV CSS ==================== */
+
+.container-fluid{
+   position: fixed;
+   top: 0;
+   left: 0;
+   /* height: 80px; */
+}
+.container-fluid .container{
+    
+}
+
+.container-fluid .container .mainNav{
+   height: auto;
+   width: 100%; 
+}
+.container-fluid .container .mainNav .wrap{
+   height: auto;
+   width: 100%;
+   display: flex;
+}
+.container-fluid .container .mainNav .wrap .item{
+   height: 70px;
+   width: 50%;
+   color: white;
+   /* background-color: black; */
+}
+.container-fluid .container .mainNav .wrap .item .wrapper{
+   
+}
+.container-fluid .container .mainNav .wrap .item .wrapper h1{
+   line-height: 60px;
+   font-size: 28px;
+   font-family: 'Abril Fatface', cursive;
+}
+.container-fluid .container .mainNav .wrap .item .wrapper h1 span{
+   color: rgb(63, 151, 223);
+}
+.container-fluid .container .mainNav .wrap .item .wrapper ul{
+   width: 100%;
+   line-height: 70px;
+   list-style: none;
+   display: flex;
+   justify-content: space-between;
+   padding: 0;
+   /* background-color: blue; */
+}
+/* .container-fluid .container .mainNav .wrap .item .wrapper ul{
+    width: 16.66%;
+   text-decoration: none;
+   font-weight: 600;
+   color: white;
+} */
+.container-fluid .container .mainNav .wrap .item .wrapper ul li{
+   height: 70px;
+   /* width: 17.66%; */
+   width: 16.66666666666667%;
+   text-align: center;
+   /* background-color: lightblue; */
+}
+.container-fluid .container .mainNav .wrap .item .wrapper ul li:hover{
+   background-color: rgb(24, 129, 214);
+}
+.container-fluid .container .mainNav .wrap .item .wrapper ul li a{
+   text-decoration: none;
+   font-weight: 600;
+   color: white;
+}

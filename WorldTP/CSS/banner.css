@@ -1,0 +1,126 @@
+/* ================= BANNER ================= */
+#body{
+    background-image: url('https://images.unsplash.com/photo-1488085061387-422e29b40080?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHRyYXZlbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+.container-fluid{
+    /* height:700px;
+    background-color: rgb(0,0,0,0.5); */
+}
+#maincon{
+    /* height:700px; */
+    background-color: rgb(0,0,0,0.5);
+}
+.container-fluid .container{
+
+}
+.container-fluid .container .mainBanner{
+    height: 700px;
+    width: 100%;
+    /* background-color: ; */
+}
+.container-fluid .container .mainBanner .childBanner{
+    height: auto;
+    width: 100%;
+    /* background-color: ; */
+}
+.container-fluid .container .mainBanner .childBanner .wrap{
+    height: auto;
+    width: 100%;
+    text-align: center;
+    /* margin: 0 auto; */
+    padding: 80px 0;
+    /* background-color: aquamarine; */
+}
+.container-fluid .container .mainBanner .childBanner .wrap .text{
+    height: auto;
+    width: 100%;
+    padding: 40px 0;
+}
+.container-fluid .container .mainBanner .childBanner .wrap .text h2{
+    font-size: 50px;
+    padding: 20px 0;
+    color: white;
+    font-family: 'Abril Fatface', cursive;
+/* font-family: 'Kolker Brush', cursive; */
+/* font-family: 'Lobster', cursive; */
+}
+.container-fluid .container .mainBanner .childBanner .wrap .text h2 span{
+    color: skyblue;
+}
+.container-fluid .container .mainBanner .childBanner .wrap .text p{
+   color: white;
+}
+
+.container-fluid .container .mainBanner .childBanner .wrap .button{
+   /* padding: 20px 0; */
+}
+.container-fluid .container .mainBanner .childBanner .wrap .button button{
+   height: 40px;
+   font-size: 12px;
+   font-weight: 600;
+   border: 2px solid white;
+   border-radius: 10px;
+   margin: 0 20px;
+   color: white;
+   background-color: transparent;     
+}
+.container-fluid .container .mainBanner .childBanner .wrap .button button:hover{
+   background-color: rgb(0,0,0,0.8);
+}
+.container-fluid .container .mainBanner .childBanner .wrap .button button:nth-child(1){
+   width: 8%;   
+}
+.container-fluid .container .mainBanner .childBanner .wrap .button button:nth-child(2){
+   width: 12%;
+}
+
+
+/* ======== SING IN PAGE ========== */
+.modal{
+   width: 30%;
+}
+.modal-body form input{
+    height: 40px;
+    width: 100%;
+    border: 1px solid rgb(26, 142, 236);
+    border-radius: 4px;
+    display: block;
+    outline: none;
+    font-size: 15px;
+    margin-top: 20px;
+    padding: 0 5%;
+}
+.modal-body form span{
+    line-height: 40px;
+    /* display: inline-block; */
+    text-decoration: none;
+    padding: 50px 0;
+}
+.modal-body .link{
+    height: 80px;
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: aqua; */
+}
+.modal-body .link .a{
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px gray;
+    cursor: pointer;
+    color: antiquewhite;
+    background-color: brown;
+}
+.modal-footer button{
+    height: 40px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}

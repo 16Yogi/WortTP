@@ -1,0 +1,65 @@
+/* ============ TOUR PLACE ================= */
+
+.container-fluid{
+
+}
+.container-fluid .container{
+
+}
+.container-fluid .container .mainTour{
+  height: auto;
+  width: 100%;
+}
+.container-fluid .container .mainTour .childTour{
+  height: auto;
+  width: 100%;
+  padding: 40px 0;
+}
+.container-fluid .container .mainTour .childTour h3{
+  line-height: 50px;
+  text-align: center;
+}
+.container-fluid .container .mainTour .childTour .wrap{
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  /* background-color: blueviolet; */
+}
+.container-fluid .container .mainTour .childTour .wrap .item{
+  position: relative;
+  height: 300px;
+  width: 32%;
+  /* margin: 0 3%; */
+  border-top-left-radius: 20px;
+  border-end-end-radius: 20px;
+  /* background-color: aquamarine; */
+  background-image: url('https://media.istockphoto.com/photos/young-man-arms-outstretched-by-the-sea-at-sunrise-enjoying-freedom-picture-id1285301614?k=20&m=1285301614&s=612x612&w=0&h=WbwgiM4M_JWWC9ew3Mhxq1XPyfZ-Sko_RgKf7toPe7A=');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.container-fluid .container .mainTour .childTour .wrap .item .item-a{
+  position:absolute;
+  top: 150px;
+  left: 0;
+  height: 150px;
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-end-end-radius: 20px;
+  color: white;
+  background-color: rgb(0,0,0,0.5);
+}
+.container-fluid .container .mainTour .childTour .wrap .item .item-a p{
+  padding: 0 5%;
+}
+.container-fluid .container .mainTour .childTour .wrap .item .item-a p:nth-child(1){
+  padding-top: 10px;
+  font-weight: 700;
+}
+.container-fluid .container .mainTour .childTour .wrap .item .item-a p:nth-child(2){
+  font-size: 13px;
+}
+.container-fluid .container .mainTour .childTour .wrap .item .item-a:hover{
+  box-shadow: 2px 2px 5px red;
+  background-color: rgb(0,0,0,0.8);
+} 

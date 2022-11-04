@@ -1,0 +1,53 @@
+/* =================== RUNNING PROGRAM ================= */
+body{
+    /* background-image: url('https://media.istockphoto.com/photos/business-travel-picture-id486836087?k=20&m=486836087&s=612x612&w=0&h=88SLB-mVQDJv9lsVBOFh-kCvW2xL-QDfqiorCnpw1Y8='); */
+
+}
+.container-fluid{
+    /* height: 400px; */
+    /* background-image: url('https://media.istockphoto.com/vectors/world-skyline-curve-landmarks-in-paper-cutting-style-vector-id1175450445?k=20&m=1175450445&s=612x612&w=0&h=zOxBh6zD2llLXf_lwVQ-qKbTSGep0vuoHDBsyFWzRmA='); */
+    /* background-image: url('https://media.istockphoto.com/vectors/family-in-protection-masks-in-airport-vector-illustration-traveling-vector-id1213082530?k=20&m=1213082530&s=612x612&w=0&h=YGzxqsIOaF07lNvSQRKvGsDET43tEYKsWGywy-eliao='); */
+    background-image: url('https://media.istockphoto.com/photos/business-travel-picture-id486836087?k=20&m=486836087&s=612x612&w=0&h=88SLB-mVQDJv9lsVBOFh-kCvW2xL-QDfqiorCnpw1Y8=');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.container-fluid .container{
+
+}
+.container-fluid .container .mainPro{
+   height: auto;
+   width: 100%;
+}
+.container-fluid .container .mainPro .childPro{
+   height: auto;
+   width: 100%;
+   padding: 50px 0;
+}
+.container-fluid .container .mainPro .childPro .wrap{
+   height: 350px;
+   text-align: center;
+   color: white;
+}
+.container-fluid .container .mainPro .childPro .wrap h3{
+   font-size: 55px;
+   text-align: center;
+   line-height: 80px;
+}
+.container-fluid .container .mainPro .childPro .wrap p{
+  font-size: 18px;
+  font-weight: 600;
+}
+.container-fluid .container .mainPro .childPro .wrap button{
+   height: 40px;
+   width: 13%;
+   font-weight: 700;
+   font-size: 15px;
+   border: 1px solid white;
+   border-radius: 20px;
+   margin: 50px 20px;
+   background-color:rgb(255, 223, 41);
+}
+.container-fluid .container .mainPro .childPro .wrap button:hover{
+   color: white;
+   background-color: rgb(119, 104, 20);
+}
